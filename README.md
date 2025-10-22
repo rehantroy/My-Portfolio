@@ -6,7 +6,7 @@ It showcases my skills, services, and creative journey as a **Full Stack Develop
 ---
 
 ## 🚀 Live Demo
-👉 [Add your live GitHub Pages / Netlify link here]
+👉 (https://rehantroy.netlify.app/)
 
 ---
 
