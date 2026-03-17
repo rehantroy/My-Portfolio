@@ -1,5 +1,17 @@
 export const techProjects = [
   {
+    id: 'portfolio-website',
+    emoji: '💻',
+    name: 'Portfolio Website',
+    description:
+      'Personal portfolio with tech and creative sections, clean dark UI',
+    bannerColor: 'from-purple-800 to-slate-900',
+    stack: ['React', 'Tailwind CSS'],
+    github: 'https://github.com/rehantroy/My-Portfolio',
+    demo: 'https://rehantroy.vercel.app/',
+    image: '/projects/portfolio.png',
+  },
+  {
     id: 'movie-recommendation',
     emoji: '🎬',
     name: 'Movie Recommendation System',
@@ -10,18 +22,6 @@ export const techProjects = [
     github: 'https://github.com/rehantroy/movie-recommendation-system',
     demo: null,
     image: '/projects/movie-rec.png',
-  },
-  {
-    id: 'portfolio-website',
-    emoji: '💻',
-    name: 'Portfolio Website',
-    description:
-      'Personal portfolio with tech and creative sections, clean dark UI',
-    bannerColor: 'from-purple-800 to-slate-900',
-    stack: ['React', 'Tailwind CSS'],
-    github: 'https://github.com/rehantroy/portfolio',
-    demo: 'https://rehant-portfolio.vercel.app',
-    image: '/projects/portfolio.png',
   },
   {
     id: 'data-analysis',
