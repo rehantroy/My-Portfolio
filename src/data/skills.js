@@ -9,13 +9,13 @@ export const techSkills = [
     icon: 'C++',
     name: 'C++',
     description: 'DSA and OOP',
-    badge: 'Proficient',
+    badge: 'Intermediate',
   },
   {
     icon: 'Py',
     name: 'Python',
     description: 'ML and web development',
-    badge: 'Proficient',
+    badge: 'Intermediate',
   },
   {
     icon: 'JS',
@@ -69,7 +69,7 @@ export const techSkills = [
     icon: 'Pd',
     name: 'Pandas',
     description: 'Data analysis and EDA',
-    badge: 'Proficient',
+    badge: 'Intermediate',
   },
   {
     icon: 'Tw',
