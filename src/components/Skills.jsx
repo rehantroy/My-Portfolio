@@ -48,6 +48,11 @@ export default function Skills() {
             bg: palette.proficientBg,
             text: palette.proficientText,
           }
+        : badge === 'Intermediate'
+        ? {
+            bg: palette.intermediateBg,
+            text: palette.intermediateText,
+          }
         : badge === 'Familiar'
         ? {
             bg: palette.familiarBg,
@@ -155,6 +160,8 @@ export default function Skills() {
                   badge: {
                     proficientBg: '#00bcd411',
                     proficientText: '#00bcd4',
+                    intermediateBg: '#10b98122',
+                    intermediateText: '#10b981',
                     familiarBg: '#f59e0b22',
                     familiarText: '#f59e0b',
                     learningBg: '#ffffff11',
@@ -213,6 +220,8 @@ export default function Skills() {
                   badge: {
                     proficientBg: '#7c3aed22',
                     proficientText: '#a78bfa',
+                    intermediateBg: '#8b5cf622',
+                    intermediateText: '#8b5cf6',
                     familiarBg: '#f59e0b22',
                     familiarText: '#f59e0b',
                     learningBg: '#ffffff11',
