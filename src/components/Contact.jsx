@@ -11,8 +11,8 @@ const sectionVariants = {
 const socialCards = [
   {
     label: 'Email',
-    value: 'rehant@email.com',
-    href: 'mailto:rehant@email.com',
+    value: 'rehantroy01@gmail.com',
+    href: 'mailto:rehantroy01@gmail.com',
     icon: FiMail,
     accent: 'text-cyan-200',
     border: 'border-cyan-400/30 hover:border-cyan-300/70',
@@ -35,8 +35,8 @@ const socialCards = [
   },
   {
     label: 'Instagram',
-    value: '@rehantroy',
-    href: 'https://instagram.com/rehantroy',
+    value: '@beingrehant',
+    href: 'https://instagram.com/beingrehant',
     icon: FaInstagram,
     accent: 'text-pink-200',
     border: 'border-pink-400/25 hover:border-pink-300/70',
@@ -72,7 +72,7 @@ export default function Contact() {
       `Name: ${formData.name}\nEmail: ${formData.email}\nProject Type: ${formData.projectType}\n\nMessage:\n${formData.message}`
     )
 
-    window.location.href = `mailto:rehant@email.com?subject=${subject}&body=${body}`
+    window.location.href = `mailto:rehantroy01@gmail.com?subject=${subject}&body=${body}`
   }
 
   return (

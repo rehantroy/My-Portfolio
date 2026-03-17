@@ -18,7 +18,7 @@ const socialLinks = [
   },
   {
     label: 'Instagram',
-    href: 'https://instagram.com/rehantroy',
+    href: 'https://instagram.com/beingrehant',
     icon: FaInstagram,
   },
   {
@@ -28,7 +28,7 @@ const socialLinks = [
   },
   {
     label: 'Email',
-    href: 'mailto:rehant@email.com',
+    href: 'mailto:rehantroy01@gmail.com',
     icon: FiMail,
   },
 ]
