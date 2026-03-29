@@ -19,8 +19,8 @@ export const techProjects = [
       'Suggests movies based on user preferences using collaborative filtering',
     bannerColor: 'from-sky-900 to-slate-900',
     stack: ['Python', 'Pandas', 'Scikit-learn'],
-    github: 'https://github.com/rehantroy/movie-recommendation-system',
-    demo: null,
+    github: 'https://github.com/rehantroy/Movie-Recommender-System',
+    demo: 'https://github.com/rehantroy/Movie-Recommender-System',
     image: '/projects/movie-rec.png',
   },
   {

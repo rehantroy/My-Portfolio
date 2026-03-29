@@ -95,7 +95,7 @@ export default function Projects() {
                 <motion.article
                   key={project.id}
                   variants={cardItem}
-                  className="card-surface group overflow-hidden rounded-[28px] transition-transform hover:-translate-y-2 hover:border-cyan-400/70 hover:shadow-[0_0_42px_rgba(0,188,212,0.22)]"
+                  className="card-surface group flex flex-col overflow-hidden rounded-[28px] transition-transform hover:-translate-y-2 hover:border-cyan-400/70 hover:shadow-[0_0_42px_rgba(0,188,212,0.22)]"
                 >
                   <div
                     className={`relative overflow-hidden px-5 py-5 bg-gradient-to-br ${project.bannerColor}`}
@@ -106,7 +106,7 @@ export default function Projects() {
                     <p className="text-xs font-semibold uppercase tracking-[0.26em] text-white/60">
                       Case Study
                     </p>
-                    <p className="mt-4 max-w-[12rem] text-xl font-semibold leading-tight text-white">
+                    <p className="mt-4 max-w-[24rem] text-xl font-semibold leading-tight text-white">
                       {project.name}
                     </p>
                     <p className="mt-3 max-w-[16rem] text-sm leading-6 text-slate-200/80">
@@ -114,7 +114,7 @@ export default function Projects() {
                     </p>
                   </div>
 
-                  <div className="space-y-5 px-5 py-5">
+                  <div className="flex flex-1 flex-col space-y-5 px-5 py-5">
                     <div className="flex flex-wrap gap-2">
                       {project.stack.map((tech) => (
                         <span
@@ -126,7 +126,7 @@ export default function Projects() {
                       ))}
                     </div>
 
-                    <div className="flex items-center gap-3 text-sm">
+                    <div className="mt-auto flex items-center gap-3 text-sm">
                       {project.github && (
                         <a
                           href={project.github}
